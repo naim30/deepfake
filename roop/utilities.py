@@ -39,7 +39,7 @@ def detect_fps(target_path: str) -> float:
         return numerator / denominator
     except Exception:
         pass
-    return 30
+    return 40
 
 
 def extract_frames(target_path: str, fps: float = 30) -> bool:
